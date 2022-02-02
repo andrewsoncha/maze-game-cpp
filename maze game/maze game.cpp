@@ -14,6 +14,7 @@ int main() {
 		int tmp1, tmp2, length;
 		scanf("%d %d %d", &tmp1, &tmp2,&length);
 		paths[tmp1-1][tmp2-1] = length;
+
 		paths[tmp2-1][tmp1-1] = length;
 	}
 	for (i = 0; i < N; i++) {
